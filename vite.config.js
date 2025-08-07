@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/PROJECT/',
   plugins: [react()],
-  base: '/LIBRARY-MANAGEMENT-SYSTEM-PROJECT/'
 })
